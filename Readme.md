@@ -55,7 +55,11 @@ The <strong>Python installed</strong>. Then install the required packages using 
 python -m spacy download en_core_web_sm
 </code></pre>
 
-<p><strong>Note:</strong> If you're using Jupyter Notebook or Google Colab, use <code>%pip install</code> instead of <code>pip install</code>.</p>
+
+<pre><code>pip install scikit-learn nltk
+import nltk
+nltk.download('stopwords')
+</code></pre>
 
 <hr/>
 
